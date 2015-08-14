@@ -7,6 +7,6 @@ Gem::Specification.new do |s|
   s.authors = ['Paulo Ancheta']
   s.email = 'paulo@brewhouse.io'
   s.files = ['lib/brutus.rb']
-  s.homepage = 'http://rubygems.org/gem/brutus'
+  s.homepage = 'http://github.com/pauloancheta/brutus-gem'
   s.license = 'MIT'
 end
