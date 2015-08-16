@@ -9,8 +9,12 @@ brutus = Brutus.cipher('md5', 'hello')
 ```
 
 ## Decipher an md5 hexdigest
-```
+```ruby
 require 'brutus'
-brutus = Brutus.decipher('md5', "5d41402abc4b2a76b9719d911017c592" )
+
+Brutus.decipher_letters('md5', "5d41402abc4b2a76b9719d911017c592" )
 #=> "hello"
+
+Brutus.decipher_numbers('md5', "81dc9bdb52d04dc20036dbd8313ed055" )
+#=> "1234"
 ```
